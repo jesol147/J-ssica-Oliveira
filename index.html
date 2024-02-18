@@ -1,0 +1,112 @@
+# J-ssica-Oliveira
+Aplicativo site / Me leva Pet
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me Leva Pet - Levamos o seu Pet em segurança </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="script"  href="script.js">
+    
+    <!--Aqui inicia o css -->
+   
+<!--Aqui inicia a nav-bar geral -->
+        <div class="nav-bar">
+
+            <ul>
+                <li><a href="motorista.html">Cadastro Motorista</a></li>
+                <li><a href="pet.html"> Cadastro Pet</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="index.html">Me Leva Pet</a></li>
+            </ul>
+        </div>
+
+        
+
+      
+    </head>
+    <br>
+    <h1>Sobre </h1>
+            
+    
+  <p> A empresa surgiu devido à grande dificuldade de tutores e protetores de animais de pequenos /médios porte sem veículo para transportar seu pet para consultas, pet shops, passeios, feiras de adoção entre outros.
+  </p> 
+<br>
+ <h3>Diferenciais :</h3>
+  Ao  contrário das plataformas tradicionais de transporte, fazemos uma análise rígida dos nossos colaboladores e dando suporte desde o cadastro até o término da corrida , durante o tempo todo que for usúario da plataforma!
+    <br><div class="texto">
+        <h3>Quais são os tipos de pets que levamos:</h3>
+        
+        <table id="animal-table">
+            <thead>
+                <tr>
+                    <th>Tipo de Animal</th>
+                    <th>Porte</th>
+                    <th>Peso</th>
+                    
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <script src="script.js"></script>
+                <!-- Aqui os dados serão inseridos dinamicamente com JavaScript -->
+               <script> 
+        // BÁSICO PARA APARECER NA TELA EM JS//
+           
+           
+        </script>
+            </tbody>
+        </table>
+        <br>
+        <h3>Quais são os modelos de carros que aceitamos</h3>
+       <table id = carro-tabela >
+        <thead>
+            <th>Modelo</th>
+             <th>Ano</th>
+            <th>Itens Obrigatórios</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Hatch</td>
+                <td>2016-2024</td>
+                <td>Ar/Airbarg / Sensor de Estacionamento/</td>
+            </tr>
+            <tr>
+                <td>Sedã</td>
+                <td>2014-2024</td>
+                <td>Sim</td>
+            </tr>
+            <tr>
+                <td>SUV</td>
+                <td>2014-2024</td>
+                <td>Não</td>
+            </tr>
+            <!-- Adicione mais linhas conforme necessário -->
+        </tbody>
+    </table>
+
+        <td></td>
+       </table>
+        
+       
+      
+       <div class="footer">
+        <p>Este site  foi idealiazado  e produzido por Jéssica Oliveira Silva -2024 .</p>
+        <p> SITE OFICIAL- Me leva Pet -Todos os direitos Reservados ©</p>
+      </div>
+  
+      <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $nome = $_POST['nome'];
+    $porte = $_POST['porte'];
+    $peso = $_POST['peso'];
+    // Insira o código aqui para processar os dados do formulário
+}
+?>
+
+    </body>
+    </html>
+        
