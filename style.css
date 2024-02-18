@@ -1,0 +1,132 @@
+/*Aqui inicio o css de todas as páginas do projeto me Leva Pet */
+/* Primeiro começo  a fazer a estrutura da barra de navegação , utilizando cores sólidas e de boa legibilidade 
+O menu estruturei no código como nav-bar */
+.nav-bar{
+    background-color: black;
+    
+     ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+     }
+     li{
+        float:left ;
+        padding: 25px;
+     }
+/* neste tópico defino a cor, e o tipo do formato da barra de navegação li a ( significa que são links da lista ordenada*/
+     li a {
+        display:block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: 0.5s;
+
+
+     }
+/* aqui seleciono a cor da barra de navegação quando o mouse passa por cima */
+     li a:hover{
+        background-color: #ffa500;
+       
+     }
+}
+/*Aqui inicia-se o corpo do site conhecido como body */
+/* Está configuração será padrão para todas as páginas do site = Escolhi um fundo com uma cor mais vibrante para dar constrante com o azul e preto já presente no site. */
+body{
+    background-color:#194E92;
+   color: aliceblue;
+   font-size: 15pt;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: justify;
+   transition: 0.5em;;
+   
+
+}
+/*Aqui inicia-se a configuração da tabela da página inicial */
+/*Tabela 1 - Sobre tipo de pet */
+table {
+   width: 100%;
+   border-collapse: collapse;
+   background-color: #ffa500;
+   color:white;
+}
+table, th, td {
+   border: 1px solid #194E92;
+}
+th, td {
+   padding: 10px;
+   text-align: left;
+}
+/*Aquit defino a cor do texto do body do h1 */
+h1 {
+   color:#ffa500;
+   text-align: justify;
+
+}
+h3{
+   color: #68bef0de;
+}
+
+/*Aqui começo a configuração da página de login */
+
+.login-container {
+
+   background-color: #194E92;
+   color: #f8f6f6;
+   max-width: 300px;
+   margin: 100px auto;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px #68bef0de;
+   }
+   
+   .form-group {
+   margin-bottom: 15px;
+   }
+   
+   label {
+   display: block;
+   margin-bottom: 5px;
+   }
+   
+   input[type="text"],
+   input[type="password"] {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+   }
+   
+   button {
+   width: 100%;
+   padding: 10px;
+   background-color: #68bef0de;
+   color: #faf9f9;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+   }
+   
+   .error-message {
+   color: red;
+   margin-top: 10px;
+   }
+   /*Aqui inicio o footer*/
+   .footer{
+      background-color: black;
+      color: white;
+      text-align: center;
+      
+   }
+   /*Página de contato */
+   /*Aqui é da página de contato */
+ .container {
+   color: #fff;
+ max-width: 500px;
+ margin: 50px auto;
+ background-color: #ffa500;
+ padding: 20px;
+ border-radius: 8px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
