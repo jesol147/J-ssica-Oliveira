@@ -1,1 +1,1 @@
-Projeto desenvolvido utilizando o visual g, adobe phothoshop , figma 
+Projeto desenvolvido utilizando o visual studio, adobe phothoshop , figma 
